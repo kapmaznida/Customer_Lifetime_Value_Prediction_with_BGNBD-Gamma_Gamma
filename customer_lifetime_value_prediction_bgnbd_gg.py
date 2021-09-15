@@ -44,11 +44,11 @@ from lifetimes import GammaGammaFitter
 """# Veritabanı"""
 
 creds = {
-    "user" : "group_02",
-    "passwd" : "hayatguzelkodlarucuyor",
-    "host" : "34.88.156.118",
-    "port" : 3306,
-    "db" : "group_02"
+    "user" : "****",
+    "passwd" : "******",
+    "host" : "************",
+    "port" : ****,
+    "db" : "*****"
 }
 
 connstr = 'mysql+mysqlconnector://{user}:{passwd}@{host}:{port}/{db}'
@@ -62,7 +62,7 @@ pd.read_sql_query("show tables",conn)
 """Veri Okuma"""
 
 from pathlib import Path
-DATA_DIR = Path("/home/nida/PycharmProjects/DSMLBC/Hws/week3/online_retail_II.xlsx")
+DATA_DIR = Path("******************/online_retail_II.xlsx")
 #Çalışma için Year2010-2011 sheeti kullanılacak!
 dataset_ = pd.read_excel(DATA_DIR, sheet_name="Year 2010-2011")
 
@@ -307,7 +307,7 @@ cltv_final["Customer ID"] = cltv_final["Customer ID"].astype(int)
 
 cltv_final.head()
 
-cltv_final.to_sql(name='Nida_Kapmaz', con=conn, if_exists='replace', index=False)
+cltv_final.to_sql(name='************', con=conn, if_exists='replace', index=False)
 
 pd.read_sql_query("show tables",conn)
 conn.close()
