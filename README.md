@@ -1,7 +1,6 @@
 # CLTV Estimation with BGNBD & GG and Sending Results to Remote Server
 
-![Image of CLV]
-(https://github.com/kapmaznida/Customer_Lifetime_Prediction_with_BGNBD-Gamma_Gamma/blob/main/clv.jpeg)
+![Image of CLV](https://github.com/kapmaznida/Customer_Lifetime_Prediction_with_BGNBD-Gamma_Gamma/blob/main/clv.jpeg)
 
 ## Business Problem
 
