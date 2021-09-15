@@ -21,14 +21,14 @@ _Dataset_
 online_retail_II_xlsx
 
  _Variables_ 
-  InvoiceNo – Invoice Number If this code starts with C, it means that the transaction has been cancelled.
-  StockCode – Product code Unique number for each product.
-  Description – Product name
-  Quantity – Number of products Indicates how many of the products on the invoices have been sold.
-  InvoiceDate – Invoice date
-  UnitPrice – Invoice price (Sterling)
-  CustomerID – Unique customer number
-  Country – Country name
+ * InvoiceNo – Invoice Number If this code starts with C, it means that the transaction has been cancelled.
+ * StockCode – Product code Unique number for each product.
+ * Description – Product name
+ * Quantity – Number of products Indicates how many of the products on the invoices have been sold.
+ * InvoiceDate – Invoice date
+ * UnitPrice – Invoice price (Sterling)
+ * CustomerID – Unique customer number
+ * Country – Country name
  
 
 - [Reference](https://www.veribilimiokulu.com/) - VBO
